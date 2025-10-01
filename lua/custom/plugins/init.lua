@@ -4,6 +4,8 @@
 -- See the kickstart.nvim README for more information
 return {
   'xiyaowong/transparent.nvim',
+  opts = {},
+  
   "Diogo-ss/42-header.nvim",
   cmd = { "Stdheader" },
   keys = { "<F1>" },
